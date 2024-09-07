@@ -24,7 +24,7 @@ const Header = () => {
                     <div>
                         <div className={`lg:static absolute bg-[rgb(18,18,18)] lg:w-auto w-full  lg:min-h-fit min-h-[60vh] left-0 ${navOpen ? 'top-[10%]' : 'top-[-100%]'
                             } `}>
-                            <ul className='flex lg:flex-row flex-col items-center lg:gap-[5vw] gap-10 text-[1.3rem]'>
+                            <ul className='flex lg:flex-row flex-col items-center lg:gap-[4.5vw] gap-10 text-[1.3rem]'>
                                 <li>HOME</li>
                                 <li>ABOUT</li>
                                 <li>SPEAKERS</li>
