@@ -15,11 +15,11 @@ const About = () => {
         </div>
 
 
-        <div className='text-xl sm:text-2xl w-[95%] mx-auto'>
+        <div className='text-xl sm:text-2xl w-[91%] mx-auto my-20'>
           <div className="motto flex flex-col md:flex-row w-full md:w-4/5 mx-auto mb-10 md:mb-14">
             At TEDxSiddagangaInstituteOfTechnology, we envision a generation only bounded by our imagination and dreams. A generation that can play a vital role in the conveyor belt of ideas, entertainment, design, and technology. We create opportunities for our students and staff to meet the people who got their hands dirty in this conveyor belt and inspire them to get their hands dirty as well.
           </div>
-          <div className="motto flex flex-col md:flex-row w-full md:w-4/5 mx-auto mb-12 md:mb-16 bg-[rgb(18,18,18)] p-6 md:p-10">
+          <div className="motto flex flex-col md:flex-row w-full md:w-4/5 mx-auto mb-12 md:mb-16 bg-[rgb(18,18,18)] p-6 md:p-10 rounded-lg">
             <div className="left w-full md:w-1/3 text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-0">OUR MOTTO:</div>
             <div className="right w-full md:w-2/3">
               "Ideas Worth Sharing": We believe that for humankind to truly progress and achieve our potential, the exchange of ideas between people is essential. TED helps us list the problems people face even in the remotest corners of the world. This promotes discussions to come up with solutions and ideas from pioneers and amateurs in different backgrounds. Most ideas, often end up being ignored or rejected, and even the ones that are accepted are often not implemented. We aim to play our little role in guiding these embryos and nurture them with the hope that they help us progress and march forward.
