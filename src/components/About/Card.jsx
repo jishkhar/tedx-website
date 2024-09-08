@@ -8,7 +8,7 @@ const Card = ({ name, position, linkedin }) => {
 
     return (
         <>
-            <div className="w-[300px] rounded-md border">
+            <div className="bg-[rgb(18,18,18)] w-[300px] rounded-md border">
                 <img
                     src={test}
                     alt="Laptop"
