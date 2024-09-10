@@ -68,6 +68,14 @@ const Header = () => {
                                         CONTACT US
                                     </NavLink>
                                 </li>
+                                <li>
+                                <NavLink to="register"
+                                        className={({ isActive }) =>
+                                            `block py-2 pr-4 pl-3 duration-200  ${isActive ? 'text-red-600' : 'text-white'}  border-b  border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-red-600 lg:p-0`
+                                        }>
+                                        REGISTER
+                                    </NavLink>
+                                </li>
                             </ul>
                         </div>
 
