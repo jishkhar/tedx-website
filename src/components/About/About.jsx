@@ -24,8 +24,10 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
+
+            className='h-fit'
             >
-            <img src={grp} alt="group photo 2024 event" className='w-full sm:w-4/5 md:w-[1200px] mx-auto my-5' />
+            <img loading='lazy' src={grp} alt="group photo 2024 event" className='w-full sm:w-4/5 md:w-[1200px] mx-auto my-5' />
           </motion.div>
         </div>
 
