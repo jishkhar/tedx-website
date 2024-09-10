@@ -93,7 +93,7 @@ export const fadeIn5 = (direction, delay) => {
     return{
         hidden: {
             y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
-            x: direction === 'left' ? 30 : direction === 'right' ? -30 : 0,
+            x: direction === 'left' ? 50 : direction === 'right' ? -50 : 0,
         },
         show: {
             y: 0,

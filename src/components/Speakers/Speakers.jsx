@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Card from './Card.jsx';
 
+import { motion } from 'framer-motion'
+import { fadeIn5 } from '../../variants.js';
+
 const Speakers = () => {
 
   const [visibleYear, setVisibleYear] = useState('2024');
@@ -74,7 +77,13 @@ const Speakers = () => {
           {/* Event did not take place in 2022 */}
         </div>
 
-        <div id="2023" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2023' ? '' : 'hidden'}`}>
+        <motion.div 
+          variants={fadeIn5("left", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false }}
+        
+          id="2023" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2023' ? '' : 'hidden'}`}>
           <Card name="Prakash Belawadi" position="CEO" />
           <Card name="Santa Santosh Avvannavar" position="CEO" />
           <Card name="Shilpa Kulshrestha" position="CEO" />
@@ -86,9 +95,15 @@ const Speakers = () => {
           <Card name="Yashwant J" position="CEO" />
           <Card name="Suma Annegowda and Pushpalatha" position="CEO" />
 
-        </div>
+        </motion.div>
 
-        <div id="2024" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2024' ? '' : 'hidden'}`}>
+        <motion.div 
+          variants={fadeIn5("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false }}
+          
+          id="2024" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2024' ? '' : 'hidden'}`}>
           <Card name="Shreya Rao Kumavarapu" position="CEO" />
           <Card name="Anurag Mourya" position="CEO" />
           <Card name="Karen Vincent" position="CEO" />
@@ -97,7 +112,7 @@ const Speakers = () => {
           <Card name="Pavana Ganga" position="CEO" />
           <Card name="Sadhwin Shetty" position="CEO" />
           <Card name="Kalyan Manjunath" position="CEO" />
-        </div>
+        </motion.div>
 
       </div>
     </>
