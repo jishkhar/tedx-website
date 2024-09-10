@@ -7,7 +7,7 @@ import Card from './Card.jsx'
 import grp from '../../Images/grp.jpeg'
 
 import { motion } from 'framer-motion'
-import { fadeIn } from '../../variants.js';
+import { fadeIn, fadeIn2 } from '../../variants.js';
 
 
 const About = () => {
@@ -35,14 +35,14 @@ const About = () => {
             variants={fadeIn("right", 0.25)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: true}}
+            viewport={{once: false}}
 
             id="left">
             <motion.h1
               variants={fadeIn("right", 0)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{once: true}}
+              viewport={{once: false}}
 
               className='text-7xl mb-10'><span className='text-red-600'>About</span>    TED
             </motion.h1>
@@ -60,14 +60,14 @@ const About = () => {
             variants={fadeIn("left", 0.25)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{once: true}}
+            viewport={{once: false}}
 
             id="right" className='mt-56'>
             <motion.h1 
               variants={fadeIn("left", 0)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{once: true}}
+              viewport={{once: false}}
 
               className='text-7xl mb-10'><span className='text-red-600'>About</span>    TEDx
             </motion.h1>
@@ -76,7 +76,9 @@ const About = () => {
             </div>
 
             <div className='md:pb-10 mt-16 ml-1'>
-              <h1 className='text-red-600 text-3xl mb-4'>Follow Us</h1>
+              <h1 className='text-red-600 text-3xl mb-4'>
+                Follow Us
+              </h1>
               <div className='flex flex-row gap-5'>
                 <a href="https://www.instagram.com/tedxsiddaganga/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon className='h-8 text-gray-600 hover:text-current' icon={faInstagram} />
@@ -101,7 +103,13 @@ const About = () => {
             <span className='text-red-600'>OUR</span> &nbsp; TEAM
           </div>
 
-          <div className="executives w-[80%] mx-auto mt-10  mb-20 pl-10 flex flex-col justify-center items-center ">
+          <motion.div 
+            variants={fadeIn("up", 0.25)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+          
+            className="executives w-[80%] mx-auto mt-10  mb-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Executive</span> &nbsp; Members</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
@@ -128,9 +136,15 @@ const About = () => {
             </div>
 
 
-          </div>
+          </motion.div>
 
-          <div className="design w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
+          <motion.div 
+            variants={fadeIn2("left", 0.25)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+          
+            className="design w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Design</span> &nbsp; &amp; Branding</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
@@ -155,9 +169,15 @@ const About = () => {
               />
             </div>
 
-          </div>
+          </motion.div>
 
-          <div className="marketing w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
+          <motion.div 
+            variants={fadeIn2("right", 0.25)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+          
+            className="marketing w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Marketing</span> &nbsp; &amp; Sponsorship</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
@@ -182,9 +202,15 @@ const About = () => {
               />
             </div>
 
-          </div>
+          </motion.div>
 
-          <div className="curation w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
+          <motion.div 
+            variants={fadeIn("up", 0.25)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+          
+            className="curation w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Content</span> &nbsp; &amp; Curation</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
@@ -209,9 +235,15 @@ const About = () => {
               />
             </div>
 
-          </div>
+          </motion.div>
 
-          <div className="technical w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
+          <motion.div 
+            variants={fadeIn2("right", 0.25)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+
+            className="technical w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Technical</span> &nbsp; Team</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
@@ -236,9 +268,15 @@ const About = () => {
               />
             </div>
 
-          </div>
+          </motion.div>
 
-          <div className="finance w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
+          <motion.div 
+            variants={fadeIn2("left", 0.25)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+          
+            className="finance w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Finance</span> &nbsp; Team</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
@@ -263,7 +301,7 @@ const About = () => {
               />
             </div>
 
-          </div>
+          </motion.div>
 
         </div>
 
