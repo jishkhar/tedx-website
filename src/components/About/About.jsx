@@ -106,7 +106,7 @@ const About = () => {
           </div>
 
           <motion.div 
-            variants={fadeIn("up", 0.25)}
+            variants={fadeIn2("up", 0)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -141,7 +141,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("left", 0.25)}
+            variants={fadeIn2("left", 0)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -174,7 +174,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("right", 0.25)}
+            variants={fadeIn2("right", 0)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -207,7 +207,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn("up", 0.25)}
+            variants={fadeIn2("up", 0)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -240,7 +240,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("right", 0.25)}
+            variants={fadeIn2("right", 0)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -273,7 +273,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("left", 0.25)}
+            variants={fadeIn2("left", 0)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
