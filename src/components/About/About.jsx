@@ -20,7 +20,7 @@ const About = () => {
             <span>SiddagangaInstituteOfTechnology</span>
           </div>
           <motion.div
-            variants={fadeIn("up", 1)}
+            variants={fadeIn("up", 0.8)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
