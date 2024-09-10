@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -33,14 +32,18 @@ const Footer = () => {
                     <div>
                         <h1 className='text-red-600 text-3xl'>Contact Us</h1>
                         <div className='text-xl'>
-                            <div>email</div>
+                            <div className='hover:underline decoration-red-600'>
+                                <a href="mailto:tedx@sit.ac.in" target="_blank" rel="noopener noreferrer">
+                                    tedx@sit.ac.in
+                                </a>
+                            </div>
                             <div>
                                 <div>phno</div>
                                 <div>phon</div>
                             </div>
-                                <div>
-                                Siddaganga Institute Of Technology, 
-                                <br /> 
+                            <div>
+                                Siddaganga Institute Of Technology,
+                                <br />
                                 Dr. Sree Sree Shivakumara Swamiji Road,
                                 <br />
                                 Tumakuru, Karnataka 572103
