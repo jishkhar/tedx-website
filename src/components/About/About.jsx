@@ -20,7 +20,7 @@ const About = () => {
             <span>SiddagangaInstituteOfTechnology</span>
           </div>
           <motion.div
-            variants={fadeIn("up", 0.5)}
+            variants={fadeIn("up", 0.2)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -101,12 +101,12 @@ const About = () => {
 
         <div className="team my-20">
 
-          <div className='text-[3.9rem] flex justify-center items-center mt-40'>
-            <span className='text-red-600'>OUR</span> &nbsp; TEAM
+          <div className=' flex justify-center items-center mt-40'>
+            <span className='text-[3.9rem] text-red-600'>OUR</span> &nbsp; &nbsp; <span className='text-[3.9rem]'>TEAM</span>
           </div>
 
           <motion.div 
-            variants={fadeIn2("up", 0)}
+            variants={fadeIn2("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -141,7 +141,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("left", 0)}
+            variants={fadeIn2("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -174,7 +174,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("right", 0)}
+            variants={fadeIn2("right", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -207,7 +207,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("up", 0)}
+            variants={fadeIn2("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -240,7 +240,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("right", 0)}
+            variants={fadeIn2("right", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}
@@ -273,7 +273,7 @@ const About = () => {
           </motion.div>
 
           <motion.div 
-            variants={fadeIn2("left", 0)}
+            variants={fadeIn2("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{once: true}}

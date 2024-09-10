@@ -18,13 +18,13 @@ const Footer = () => {
                         <h1 className='text-red-600 text-3xl mb-4'>Follow Us</h1>
                         <div className='flex flex-row gap-5'>
                             <a href="https://www.instagram.com/tedxsiddaganga/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon className='h-8' icon={faInstagram} />
+                                <FontAwesomeIcon  className='h-8 hover:scale-110' icon={faInstagram} />
                             </a>
                             <a href="https://www.linkedin.com/company/tedxsiddagangainstituteoftechnology/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon className='h-8' icon={faLinkedin} />
+                                <FontAwesomeIcon className='h-8 hover:scale-110' icon={faLinkedin} />
                             </a>
                             <a href="https://www.facebook.com/TedxSiddaganga/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon className='h-8' icon={faFacebook} />
+                                <FontAwesomeIcon className='h-8 hover:scale-110' icon={faFacebook} />
                             </a>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                     <div>
                         <h1 className='text-red-600 text-3xl'>Contact Us</h1>
                         <div className='text-xl'>
-                            <div className='hover:underline decoration-red-600'>
+                            <div className='hover:underline'>
                                 <a href="mailto:tedx@sit.ac.in" target="_blank" rel="noopener noreferrer">
                                     tedx@sit.ac.in
                                 </a>

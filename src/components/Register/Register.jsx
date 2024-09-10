@@ -29,7 +29,7 @@ const Register = () => {
     return (
         <>
             <div>
-                <form onSubmit={handleSubmit} id="sheetdb-form" className='w-full sm:w-[80%] md:w-[60%] lg:w-[40%] xl:w-[30%] mx-auto my-20 p-4'>
+                <form onSubmit={handleSubmit} id="sheetdb-form" className='border-red-600 border-2 w-full sm:w-[80%] md:w-[60%] lg:w-[40%] xl:w-[30%] mx-auto my-20 p-9 rounded-lg'>
                     <h1 className='text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3rem] mb-10 pl-5'>
                         <span className='text-red-600'>TED<sup>X</sup> </span> &nbsp; REGISTRATION
                     </h1>
