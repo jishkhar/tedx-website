@@ -25,7 +25,7 @@ const About = () => {
             whileInView={"show"}
             viewport={{once: true}}
 
-            className='h-fit'
+            className='h-[740px]'
             >
             <img loading='lazy' src={grp} alt="group photo 2024 event" className='w-full sm:w-4/5 md:w-[1200px] mx-auto my-5' />
           </motion.div>
