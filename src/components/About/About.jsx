@@ -180,7 +180,11 @@ const About = () => {
             viewport={{once: true}}
           
             className="marketing w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
-            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Marketing</span> &nbsp; &amp; Sponsorship</div>
+            <div className='text-6xl flex justify-center items-center my-14 md:flex flex-col'>
+              <span className='text-red-600'>Marketing</span>
+              <span>&amp;</span> 
+              <span>Sponsorship</span>
+            </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
               <Card
                 name="NAME"
