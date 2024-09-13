@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../../assets/home/hero.png"
+import hero from "../../assets/home/hero1.jpg"
 
 const Home = () => {
   const fontStyle = {
