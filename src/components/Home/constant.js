@@ -13,18 +13,14 @@
 
   
   export const ServiceData = [
+   
     {
-      
-      title: "KALYAN MANJUNATH",
-      content: "Singer",
-      backgroundImage: kalyan,
-    },
-    {
-      
-      title: "KAREN VINCENT",
-      content: "Social Media Influencer",
-      backgroundImage: karen,
-    },
+     
+        title: "ANURAG MAURYA",
+        content: "Artist",
+        backgroundImage: anurag,
+      },
+   
     {
      
       title: "SHREYA RAO",
@@ -32,11 +28,23 @@
       backgroundImage: shreaya,
     },
     {
+     
+        title: "SUBHA KALYAN",
+        content: "IAS Officer.",
+        backgroundImage: s7,
+      },
+      {
+     
+        title: "ASHOK VENKAT",
+        content: "IPS Officer",
+        backgroundImage: s6,
+      },
+      {
       
-      title: "SADHWIN SHETTY",
-      content: "Dancer",
-      backgroundImage: sadhwin,
-    },
+        title: "KAREN VINCENT",
+        content: "Social Media Influencer",
+        backgroundImage: karen,
+      },
     {
       
       title: "PAVANA GANGA",
@@ -49,22 +57,18 @@
       content: "Singer .",
       backgroundImage: s5,
     },
-    {
+    
      
-        title: "ASHOK VENKAT",
-        content: "IPS Officer",
-        backgroundImage: s6,
+      {
+      
+        title: "KALYAN MANJUNATH",
+        content: "Singer",
+        backgroundImage: kalyan,
       },
       {
-     
-        title: "SUBHA KALYAN",
-        content: "IAS Officer.",
-        backgroundImage: s7,
-      },
-      {
-     
-        title: "ANURAG MAURYA",
-        content: "Artist",
-        backgroundImage: anurag,
+      
+        title: "SADHWIN SHETTY",
+        content: "Dancer",
+        backgroundImage: sadhwin,
       },
   ];
