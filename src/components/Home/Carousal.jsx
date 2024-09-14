@@ -20,7 +20,7 @@ const Carousal = () => {
     <>
    
     <div className="flex items-center justify-center flex-col h-[700px] bg-black">
-    <h1 className=" text-center text-3xl py-6 mb-11"style={lexend}>INVITED SPEAKERS AND PERFORMERS </h1>
+    <h1 className=" text-center text-4xl py-6 mb-11 font-bold"style={lexend}>INVITED SPEAKERS AND PERFORMERS </h1>
       <Swiper
         breakpoints={{
           340: {

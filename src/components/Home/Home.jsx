@@ -1,6 +1,7 @@
 import React from 'react'
 import hero from "../../assets/home/hero1.jpg"
 import Carousal from "../Home/Carousal"
+import About from "../Home/Us"
 const Home = () => {
   const fontStyle = {
     fontFamily: 'Anton, sans-serif',
@@ -64,6 +65,7 @@ const Home = () => {
   </div>
 </section> 
   <Carousal/>
+  <About/>
 </>
 
 
