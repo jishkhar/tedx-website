@@ -29,21 +29,21 @@ const Us = () => {
       {/* Right side buttons section */}
       <div className="w-4/12 p-4 flex flex-col items-start justify-around mt-16">
         <button
-          className="mb-8 px-9 py-2 bg-red-600 text-center text-white rounded text-2xl"
+          className="mb-8 px-9 py-2 bg-red-600 text-center text-white rounded text-2xl  hover:bg-red-800"
           onClick={() => setSelectedText(textContent.button1)}
           style={Outfit}
         >
           About TED
         </button>
         <button
-          className="mb-8 px-8 py-2 bg-red-600 text-center text-white rounded text-2xl"
+          className="mb-8 px-8 py-2 bg-red-600 text-center text-white rounded text-2xl  hover:bg-red-800"
           onClick={() => setSelectedText(textContent.button2)}
           style={Outfit}
         >
           About TEDx
         </button>
         <button
-          className="px-4 py-2 bg-red-600 text-white  text-center rounded text-2xl"
+          className="px-4 py-2 bg-red-600 text-white  text-center rounded text-2xl  hover:bg-red-800"
           onClick={() => setSelectedText(textContent.button3)}
           style={Outfit}
         >
