@@ -3,6 +3,7 @@ import hero from "../../assets/home/hero1.jpg"
 import Carousal from "../Home/Carousal"
 import About from "../Home/Us"
 import Reasons from "../Home/Reasons"
+import Lastc from "../Home/lastc"
 const Home = () => {
   const fontStyle = {
     fontFamily: 'Anton, sans-serif',
@@ -68,6 +69,7 @@ const Home = () => {
   <Carousal/>
   <About/>
   <Reasons/>
+  <Lastc/>
 </>
 
 
