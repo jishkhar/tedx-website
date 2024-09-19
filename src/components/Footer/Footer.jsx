@@ -38,8 +38,8 @@ const Footer = () => {
                                 </a>
                             </div>
                             <div>
-                                <div>phno</div>
-                                <div>phon</div>
+                                <div>phone no</div>
+                                <div>phone no</div>
                             </div>
                             <div>
                                 Siddaganga Institute Of Technology,
