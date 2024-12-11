@@ -11,13 +11,14 @@ import Contact from './components/Contact/Contact.jsx'
 import Register from './components/Register/Register.jsx'
 import Speaknom from './components/Home/Speaknom.jsx'
 import { Route } from 'react-router-dom'
-
+import Nform from './components/Home/Nform.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
         <Route path='' element={<Home />} />
         <Route path='speaknom' element={<Speaknom />} />
+        <Route path='nform' element={<Nform />} />
         <Route path='about' element={<About />} />
         <Route path='speakers' element={<Speakers />} />
         <Route path='partners' element={<Partners />} />

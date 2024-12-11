@@ -3,6 +3,15 @@ import Card from './Card.jsx';
 
 import { motion } from 'framer-motion'
 import { fadeIn5 } from '../../variants.js';
+import kalyan from "../../assets/home/kalyan.png";
+  import shreya from "../../assets/home/shreya.png";
+  import karen from "../../assets/home/karen.png";
+  import sadhwin from "../../assets/home/sadhwin.png"
+  import pavana from "../../assets/home/pavana.png";
+  import vignesh from "../../assets/home/vignesh.png";
+  import ashok from "../../assets/home/ashok.png";
+  
+ import anurag from "../../assets/home/anurag.png"
 
 const Speakers = () => {
 
@@ -33,7 +42,8 @@ const Speakers = () => {
 
         
         <div id="2019" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2019' ? '' : 'hidden'}`}>
-          <Card name="Pooja Sachdeva" position="CEO" />
+          <Card name="Pooja Sachdeva" position="CEO"  test={anurag} content="Ms. Shreya Rao Kamavarapu was crowned as the 1st runner-up at the Miss India 2018
+pageant. She is known for her grace & intelligence."/>
           <Card name="Santa Santosh Avvannavar" position="CEO" />
           <Card name="Alcatraz Dey" position="CEO" />
           <Card name="Baisakhi Saha" position="CEO" />
@@ -104,14 +114,14 @@ const Speakers = () => {
           viewport={{ once: false }}
           
           id="2024" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2024' ? '' : 'hidden'}`}>
-          <Card name="Shreya Rao Kumavarapu" position="CEO" />
-          <Card name="Anurag Mourya" position="CEO" />
-          <Card name="Karen Vincent" position="CEO" />
-          <Card name="Ashok Venkat" position="CEO" />
-          <Card name="Vignesh Shankar" position="CEO" />
-          <Card name="Pavana Ganga" position="CEO" />
-          <Card name="Sadhwin Shetty" position="CEO" />
-          <Card name="Kalyan Manjunath" position="CEO" />
+          <Card name="Shreya Rao Kumavarapu" position="CEO" test={shreya} />
+          <Card name="Anurag Mourya" position="CEO" test={anurag}/>
+          <Card name="Karen Vincent" position="CEO" test={karen}/>
+          <Card name="Ashok Venkat" position="CEO" test={ashok}/>
+          <Card name="Vignesh Shankar" position="CEO" test={vignesh} />
+          <Card name="Pavana Ganga" position="CEO" test={pavana}/>
+          <Card name="Sadhwin Shetty" position="CEO" test={sadhwin}/>
+          <Card name="Kalyan Manjunath" position="CEO" test={kalyan} />
         </motion.div>
 
       </div>
