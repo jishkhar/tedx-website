@@ -7,28 +7,28 @@ import Lastc from "../Home/Lastc.jsx"
 
 const Home = () => {
 
-  const fontStyle = {
-    fontFamily: 'Anton, sans-serif',
-  };
-  const lexend={
-    fontFamily:'Lexend Giga, sans-serif',
-  };
+  // const fontStyle = {
+  //   fontFamily: 'Anton, sans-serif',
+  // };
+  // const lexend={
+  //   fontFamily:'Lexend Giga, sans-serif',
+  // };
   return (
     <>
  
- <section className="bg-black py-0">
+ <section className="bg-black">
   <div className="container mx-auto flex flex-col lg:flex-row items-center">
     {/* Left Section:  */}
     <div className="lg:w-1/2 mt-64 text-left lg:mb-0 lg:pt-50"> 
       {/* TEDx2024 */}
-      <h1 className="text-white text-5xl font-semibold mb-2 ml-16" style={lexend}>
+      <h1 className="text-white text-5xl font-semibold mb-2 ml-16">
         TEDx2024
       </h1>
 
       {/* "BEYOND"  "THE"  */}
       <div className="relative flex items-start">
         <div className="text-9xl leading-none ml-16">
-          <span className="block text-white" style={fontStyle}>
+          <span className="block text-white">
             BEYOND
           </span>
         </div>
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       {/* "CANVAS"  */}
-      <div className="ml-0 mt-0 flex justify-center text-[9rem] leading-none" style={fontStyle}>
+      <div className="ml-0 mt-0 flex justify-center text-[9rem] leading-none">
         <span className="text-white m-0 p-0">C</span>
         <span className="text-red-600 m-0 p-0">A</span>
         <span className="text-white m-0 p-0">N</span>
@@ -47,8 +47,17 @@ const Home = () => {
       </div>
 
      
-      <p className="ml-16 mt-20 text-white text-lg" style={lexend}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <p className="ml-16 mt-20 text-white text-xl">
+      The concept of "Beyond the Canvas" as a topic embodies the idea of
+pushing past conventional limits and discovering new avenues for
+expression, creativity, and innovation. It inspires people to go beyond
+the bounds of traditional thinking and explore previously unexplored
+realms of possibility and creativity. Ultimately, it serves as a call to
+action, a reminder that the journey of discovery and creation is
+limitless and that the most profound insights and experiences often lie
+just beyond the edges of what we know and perceive. It inspires us to
+welcome the adventure of venturing into the unknown to embrace
+innovation and to embrace ambiguity.
       </p>
 
       {/* Date */}

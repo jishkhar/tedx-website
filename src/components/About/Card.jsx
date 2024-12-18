@@ -8,11 +8,11 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 const Card = ({ name, position, linkedin }) => {
     return (
         <>
-            <div className="bg-[rgb(18,18,18)] w-[300px] rounded-md border hover:shadow-lg hover:scale-110 transition-transform duration-300">
+            <div className="bg-[rgb(18,18,18)] w-[250px] rounded-md border hover:shadow-lg hover:scale-110 transition-transform duration-300">
                 <img
                     src={test}
                     alt="Laptop"
-                    className="h-[300px] rounded-t-md object-cover"
+                    className="h-[250px] rounded-t-md object-cover"
                 />
                 <div className="p-4 flex flex-col justify-center items-center">
                     <h1 className="text-2xl font-semibold">{name}</h1>

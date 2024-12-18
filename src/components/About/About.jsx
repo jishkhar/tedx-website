@@ -113,24 +113,29 @@ const About = () => {
           
             className="executives w-[80%] mx-auto mt-10  mb-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Executive</span> &nbsp; Members</div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
               <Card
-                name="NAME"
+                name="Shreeraksha N"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Sayan Das"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Sanjana"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Krish"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Abir Sarkar"
                 position="Technical Team"
                 linkedin="LINKEDIN"
                 className="md:col-span-2 lg:col-span-1 lg:col-start-2"
@@ -147,25 +152,65 @@ const About = () => {
             viewport={{once: true}}
           
             className="design w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
-            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Design</span> &nbsp; &amp; Branding</div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
+            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Curations</span> &nbsp;</div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
               <Card
-                name="NAME"
+                name="Mohith Sai"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Navtej"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Arshan"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Khushi A Narayan"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Anaya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Shreeya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Vaishnavi"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Jeet"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Skarma"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Tanay"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Kana Vahini"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Srinidhi"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
@@ -182,30 +227,96 @@ const About = () => {
             className="marketing w-[80%] mx-auto my-20 pl-10 flex flex-col justify-center items-center ">
             <div className='text-6xl flex justify-center items-center my-14 md:flex flex-col'>
               <span className='text-red-600'>Marketing</span>
-              <span>&amp;</span> 
-              <span>Sponsorship</span>
+              <span></span> 
+              <span></span>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
               <Card
-                name="NAME"
+                name="Tarun"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Purbayan Biswas"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Sanvi"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Ritvik"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
+              <Card
+                name="Anurag"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Ashutosh"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Arpita"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Himank"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Basayya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Karan Anand"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Poorvika"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Saish"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Shubhankar"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Kapil"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Prem"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Mawlya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Anisha"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+
             </div>
 
           </motion.div>
@@ -217,25 +328,85 @@ const About = () => {
             viewport={{once: true}}
           
             className="curation w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
-            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Content</span> &nbsp; &amp; Curation</div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
+            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Socials</span> &nbsp; </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
               <Card
-                name="NAME"
+                name="Juhi"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Avinash"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Falak Taj"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Abhishek Hiremath"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Monal"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Sadiya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Poornima"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Abhishek Gupta"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Piyush Kumar"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Om Trivedi"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Gagan"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Trupti"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Pawan"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Kartik"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Anagha"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Dhruthi"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
@@ -250,25 +421,40 @@ const About = () => {
             viewport={{once: true}}
 
             className="technical w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
-            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Technical</span> &nbsp; Team</div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
+            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Development</span> &nbsp; Team</div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
               <Card
-                name="NAME"
+                name="Aditya Agarwal"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Rajdeep Paul"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Jishnu Khargharia"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Prajna"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Anusha H"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Rahul"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Devank"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
@@ -283,25 +469,113 @@ const About = () => {
             viewport={{once: true}}
           
             className="finance w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
-            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Finance</span> &nbsp; Team</div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32'>
+            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Budget</span> &nbsp; Team</div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
               <Card
-                name="NAME"
+                name="Purbayan Biswas"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Arshan"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Ashish"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+            </div>
+
+          </motion.div>
+
+          <motion.div 
+            variants={fadeIn2("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{once: true}}
+          
+            className="finance w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center ">
+            <div className='text-6xl flex justify-center items-center my-14'><span className='text-red-600'>Arts</span> &nbsp; &amp;<span>Operations</span></div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28'>
+              <Card
+                name="Shrusti"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
               <Card
-                name="NAME"
+                name="Lavanya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Anjali"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Ankit"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Sadiya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="HS Shreyas"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Tejaswini"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Dhanush"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Viraj"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Nidhi"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Shreyash"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Richa Jha"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Sampreethi"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Shreya"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Khushi MC"
+                position="Technical Team"
+                linkedin="LINKEDIN"
+              />
+              <Card
+                name="Satyakam Vats"
                 position="Technical Team"
                 linkedin="LINKEDIN"
               />
