@@ -3,7 +3,6 @@ import hero from "../../assets/home/hero1.jpg"
 import Carousal from "../Home/Carousal"
 import About from "../Home/Us"
 import Reasons from "../Home/Reasons"
-import Lastc from "../Home/Lastc.jsx"
 
 const Home = () => {
 
@@ -80,7 +79,6 @@ innovation and to embrace ambiguity.
   <Carousal/>
   <About/>
   <Reasons/>
-  <Lastc/>
 </>
 
 
