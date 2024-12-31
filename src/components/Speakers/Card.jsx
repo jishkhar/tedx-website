@@ -10,7 +10,7 @@ const Card = ({ name, position,test,content }) => {
                 <div>
                     <img
                         src={test}
-                        className="h-[300px] rounded-full "
+                        className="h-[300px] w-[200px] rounded-full object-cover "
                     />
                 </div>
                 <div className="pt-4 flex flex-col justify-center items-center">
