@@ -2,7 +2,7 @@ import React from 'react'
 import test from '../../Images/text .png'
 
 
-const Card = ({ name, position }) => {
+const Card = ({ name, position,test,content }) => {
 
     return (
         <>
@@ -10,7 +10,7 @@ const Card = ({ name, position }) => {
                 <div>
                     <img
                         src={test}
-                        className="h-[300px] rounded-full"
+                        className="h-[300px] rounded-full "
                     />
                 </div>
                 <div className="pt-4 flex flex-col justify-center items-center">
@@ -18,6 +18,11 @@ const Card = ({ name, position }) => {
                     <p className=" text-[1.6rem] mt-3 text-gray-600">
                         {position}
                     </p>
+                    <div>
+                    <p className=" text-[1.2rem] mt-3 text-gray-600">
+                        {content}
+                    </p>
+                    </div>
                 </div>
             </div>
         </>
