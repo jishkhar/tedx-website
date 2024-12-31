@@ -5,6 +5,70 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook";
 import Card from "./Card.jsx";
 import grp from "../../Images/grp.jpeg";
+import abhig from "../photos/abhishekg.jpg";
+import anagha from "../photos/anagha.jpg";
+import anisha from "../photos/anisha.jpg";
+import ankit from "../photos/ankit.jpg";
+import anusha from "../photos/anusha.jpg";
+import arpita from "../photos/arpita.jpg";
+import arshan from "../photos/arshan.jpg";
+import ashish from "../photos/ashish.jpeg.jpg";
+import avinash from "../photos/avinash.jpg";
+import devank from "../photos/devank.jpg";
+import dhanush from "../photos/dhanush.jpg";
+import dhruthi from "../photos/dhruthi.jpg";
+import falak from "../photos/falak.jpg";
+import himank from "../photos/himank.jpg";
+import hiremath from "../photos/hiremath.jpg";
+import hs from "../photos/hs.jpg";
+import jeet from "../photos/jeet.jpg";
+import jishnu from "../photos/jishnu.jpg";
+import juhi from "../photos/juhi.jpg";
+import kapil from "../photos/kapil.jpg";
+import karan from "../photos/karan.jpg";
+import karthik from "../photos/kartik.jpg";
+import khushi from "../photos/khushi.jpg";
+import krish from "../photos/krish.jpg";
+import lavanya from "../photos/lavanya.jpg";
+import mohith from "../photos/mohith.jpg";
+import navtej from "../photos/navtej.jpg";
+import nidhi from "../photos/nidhi.jpg";
+import nikhil from "../photos/nikhil.jpg";
+import om from "../photos/om.jpg";
+import piyush from "../photos/piyush.jpg";
+import piyushjr from "../photos/piyushjr.jpg";
+import poorvika from "../photos/poorvika.jpg";
+import prajna from "../photos/prajna.jpg";
+import prem from "../photos/prem.jpg";
+import purbayan from "../photos/purbayan.jpg";
+import rahul from "../photos/rahul.jpg";
+import rajdeep from "../photos/rajdeep.jpg";
+import richa from "../photos/richa.jpg";
+import saish from "../photos/saish.jpg";
+import samprathi from "../photos/samprathi.jpg";
+import sanjana from "../photos/sanjana.jpg";
+import satyakam from "../photos/satyakam.jpg";
+import raksha from "../photos/shreeraksha.jpg";
+import shreeya from "../photos/shreeya.jpg";
+import shreya from "../photos/shreya.jpg";
+import shrusti from "../photos/shrusti.jpg";
+import shubhankar from "../photos/shubhankar.jpg";
+import skarma from "../photos/skarma.jpg";
+import srinidhi from "../photos/srinidhi.jpg";
+import tanay from "../photos/tanay.jpg";
+import tarun from "../photos/tarun.jpg";
+import trupthi from "../photos/trupthi.jpg";
+import vahini from "../photos/vahini.jpg";
+import vaishnavi from "../photos/vaishnavi.jpg";
+import viraj from "../photos/viraj.jpg";
+import shreyash from "../photos/shreyash.jpg";
+import anjali from "../photos/anjali.jpg";
+import ritvik from "../photos/ritvik.jpg";
+import sanvi from "../photos/sanvi.jpg";
+import monal from "../photos/monal.jpg";
+import sadiya from "../photos/sadiya.jpg";
+import poornima from "../photos/poornima.jpg";
+
 
 import { motion } from "framer-motion";
 import { fadeIn, fadeIn2 } from "../../variants.js";
@@ -166,10 +230,10 @@ const About = () => {
               <span className="text-red-600">Executive</span> &nbsp; Members
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card test="tedx-photos/year4/shreeraksha.jpeg" name="Shreeraksha N" position="Organizer" />
-              <Card test="../../Images/tedx_photos/year4/krish.jpeg" name="Sayan Das" position="Co-Organizer" />
-              <Card name="Sanjana" position="Head of Arts" />
-              <Card name="Krish" position="Head of Marketing" />
+              <Card test={raksha} name="Shreeraksha N" position="Organizer" />
+              <Card  name="Sayan Das" position="Co-Organizer" />
+              <Card test={sanjana}name="Sanjana" position="Head of Arts" />
+              <Card test={krish}name="Krish" position="Head of Marketing" />
               <Card name="Abir Sarkar" position="Head of Development" className="md:col-span-2 lg:col-span-1 lg:col-start-2" />
             </div>
           </motion.div>
@@ -185,18 +249,40 @@ const About = () => {
               <span className="text-red-600">Curations</span> &nbsp;
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card name="Mohith Sai" position="3rd Year" />
-              <Card name="Navtej" position="3rd Year" />
-              <Card name="Arshan" position="3rd Year" />
-              <Card name="Khushi A Narayan" position="2nd Year" />
+              <Card test={mohith}name="Mohith Sai" position="3rd Year" />
+              <Card test={navtej}name="Navtej" position="3rd Year" />
+              <Card test={arshan}name="Arshan" position="3rd Year" />
+              <Card test={khushi}name="Khushi A Narayan" position="2nd Year" />
               <Card name="Anaya" position="2nd Year" />
-              <Card name="Shreeya" position="2nd Year" />
-              <Card name="Vaishnavi" position="2nd Year" />
-              <Card name="Jeet" position="1st Year" />
-              <Card name="Skarma" position="1st Year" />
-              <Card name="Tanay" position="1st Year" />
-              <Card name="Kana Vahini" position="1st Year" />
-              <Card name="Srinidhi" position="1st Year" />
+              <Card test={shreeya}name="Shreeya" position="2nd Year" />
+              <Card test={vaishnavi}name="Vaishnavi" position="2nd Year" />
+              <Card test={jeet} name="Jeet" position="1st Year" />
+              <Card test={skarma}name="Skarma" position="1st Year" />
+              <Card test={tanay}name="Tanay" position="1st Year" />
+              <Card test={vahini}name="Kana Vahini" position="1st Year" />
+              <Card test={srinidhi}name="Srinidhi" position="1st Year" />
+            </div>
+          </motion.div>
+
+
+          <motion.div
+            variants={fadeIn2("right", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true }}
+            className="technical w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center "
+          >
+            <div className="text-6xl flex justify-center items-center my-14">
+              <span className="text-red-600">Development</span> &nbsp; Team
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
+              <Card name="Aditya Agarwal" position="3rd Year" />
+              <Card test={rajdeep}name="Rajdeep Paul" position="3rd Year" />
+              <Card test={jishnu}name="Jishnu Khargharia" position="2nd Year" />
+              <Card test={prajna}name="Prajna" position="2nd Year" />
+              <Card test={anusha}name="Anusha H" position="2nd Year" />
+              <Card test={rahul}name="Rahul" position="1st Year" />
+              <Card test={devank}name="Devank" position="1st Year" />
             </div>
           </motion.div>
 
@@ -213,23 +299,23 @@ const About = () => {
               <span></span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card name="Tarun" position="3rd Year" />
-              <Card name="Purbayan Biswas" position="3rd Year" />
-              <Card name="Sanvi" position="2nd Year" />
-              <Card name="Ritvik" position="2nd Year" />
+              <Card test={tarun} name="Tarun" position="3rd Year" />
+              <Card test={purbayan}name="Purbayan Biswas" position="3rd Year" />
+              <Card test={sanvi}name="Sanvi" position="2nd Year" />
+              <Card test={ritvik}name="Ritvik" position="2nd Year" />
               <Card name="Anurag" position="2nd Year" />
               <Card name="Ashutosh" position="2nd Year" />
-              <Card name="Arpita" position="2nd Year" />
-              <Card name="Himank" position="2nd Year" />
+              <Card test={arpita}name="Arpita" position="2nd Year" />
+              <Card test={himank}name="Himank" position="2nd Year" />
               <Card name="Basayya" position="2nd Year" />
-              <Card name="Karan Anand" position="2nd Year" />
-              <Card name="Poorvika" position="2nd Year" />
-              <Card name="Saish" position="1st Year" />
-              <Card name="Shubhankar" position="1st Year" />
-              <Card name="Kapil" position="1st Year" />
-              <Card name="Prem" position="1st Year" />
-              <Card name="Mawlya" position="1st Year" />
-              <Card name="Anisha" position="1st Year" />
+              <Card test={karan}name="Karan Anand" position="2nd Year" />
+              <Card test={poorvika}name="Poorvika" position="2nd Year" />
+              <Card test={saish}name="Saish" position="1st Year" />
+              <Card test={shubhankar}name="Shubhankar" position="1st Year" />
+              <Card test={kapil}name="Kapil" position="1st Year" />
+              <Card test={prem}name="Prem" position="1st Year" />
+              {/* <Card name="Mawlya" position="1st Year" /> */}
+              <Card test={anisha}name="Anisha" position="1st Year" />
             </div>
           </motion.div>
 
@@ -244,45 +330,26 @@ const About = () => {
               <span className="text-red-600">Socials</span> &nbsp;{" "}
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card name="Juhi" position="3rd Year" />
-              <Card name="Avinash" position="3rd Year" />
-              <Card name="Falak Taj" position="3rd Year" />
-              <Card name="Abhishek Hiremath" position="2nd Year" />
-              <Card name="Monal" position="2nd Year" />
-              <Card name="Sadiya" position="2nd Year" />
-              <Card name="Poornima" position="2nd Year" />
-              <Card name="Abhishek Gupta" position="2nd Year" />
-              <Card name="Piyush Kumar" position="2nd Year" />
-              <Card name="Om Trivedi" position="1st Year" />
-              <Card name="Gagan" position="1st Year" />
-              <Card name="Trupti" position="1st Year" />
-              <Card name="Pawan" position="1st Year" />
-              <Card name="Kartik" position="1st Year" />
-              <Card name="Anagha" position="1st Year" />
-              <Card name="Dhruthi" position="1st Year" />
+              <Card test={juhi}name="Juhi" position="3rd Year" />
+              <Card test={avinash}name="Avinash" position="3rd Year" />
+              <Card test={falak}name="Falak Taj" position="3rd Year" />
+              <Card test={hiremath}name="Abhishek Hiremath" position="2nd Year" />
+              <Card test={monal}name="Monal" position="2nd Year" />
+              <Card test={sadiya}name="Sadiya" position="2nd Year" />
+              <Card test={poornima}name="Poornima" position="2nd Year" />
+              <Card test={abhig}name="Abhishek Gupta" position="2nd Year" />
+              <Card test={piyush}name="Piyush Kumar" position="2nd Year" />
+              <Card test={om}name="Om Trivedi" position="1st Year" />
+              {/* <Card name="Gagan" position="1st Year" /> */}
+              <Card test={trupthi}name="Trupthi" position="1st Year" />
+              {/* <Card name="Pawan" position="1st Year" /> */}
+              <Card test={karthik}name="Kartik" position="1st Year" />
+              <Card test={anagha}name="Anagha" position="1st Year" />
+            <Card test={dhruthi}name="Dhruthi" position="1st Year" />
             </div>
           </motion.div>
 
-          <motion.div
-            variants={fadeIn2("right", 0.5)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true }}
-            className="technical w-[80%] mx-auto  my-20 pl-10 flex flex-col justify-center items-center "
-          >
-            <div className="text-6xl flex justify-center items-center my-14">
-              <span className="text-red-600">Development</span> &nbsp; Team
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card name="Aditya Agarwal" position="3rd Year" />
-              <Card name="Rajdeep Paul" position="3rd Year" />
-              <Card name="Jishnu Khargharia" position="2nd Year" />
-              <Card name="Prajna" position="2nd Year" />
-              <Card name="Anusha H" position="2nd Year" />
-              <Card name="Rahul" position="1st Year" />
-              <Card name="Devank" position="1st Year" />
-            </div>
-          </motion.div>
+          
 
           <motion.div
             variants={fadeIn2("left", 0.5)}
@@ -295,9 +362,9 @@ const About = () => {
               <span className="text-red-600">Budget</span> &nbsp; Team
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card name="Purbayan Biswas" position="3rd Year" />
-              <Card name="Arshan" position="3rd Year" />
-              <Card name="Ashish" position="2nd Year" />
+              <Card test={purbayan}name="Purbayan Biswas" position="3rd Year" />
+              <Card test={arshan}name="Arshan" position="3rd Year" />
+              <Card test={ashish}name="Ashish" position="2nd Year" />
             </div>
           </motion.div>
 
@@ -313,22 +380,22 @@ const About = () => {
               <span> &nbsp;Operations</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-28">
-              <Card name="Shrusti" position="3rd Year" />
-              <Card name="Lavanya" position="3rd Year" />
-              <Card name="Anjali" position="3rd Year" />
-              <Card name="Ankit" position="3rd Year" />
-              <Card name="Sadiya" position="2nd Year" />
-              <Card name="HS Shreyas" position="2nd Year" />
+              <Card test={shrusti}name="Shrusti" position="3rd Year" />
+              <Card test={lavanya}name="Lavanya" position="3rd Year" />
+              <Card test={anjali}name="Anjali" position="3rd Year" />
+              <Card test={ankit}name="Ankit" position="3rd Year" />
+              <Card test={sadiya}name="Sadiya" position="2nd Year" />
+              <Card test={hs}name="HS Shreyas" position="2nd Year" />
               <Card name="Tejaswini" position="2nd Year" />
-              <Card name="Dhanush" position="2nd Year" />
-              <Card name="Viraj" position="2nd Year" />
-              <Card name="Nidhi" position="2nd Year" />
-              <Card name="Shreyash" position="1st Year" />
-              <Card name="Richa Jha" position="1st Year" />
-              <Card name="Sampreethi" position="1st Year" />
-              <Card name="Shreya" position="1st Year" />
-              <Card name="Khushi MC" position="1st Year" />
-              <Card name="Satyakam Vats" position="1st Year" />
+              <Card test={dhanush}name="Dhanush" position="2nd Year" />
+              <Card test={viraj}name="Viraj" position="2nd Year" />
+              <Card test={nidhi}name="Nidhi" position="2nd Year" />
+              <Card test={shreyash}name="Shreyash" position="1st Year" />
+              <Card test={richa}name="Richa Jha" position="1st Year" />
+              <Card test={samprathi}name="Samprathi" position="1st Year" />
+              <Card test={shreya}name="Shreya" position="1st Year" />
+              <Card test={khushi}name="Khushi MC" position="1st Year" />
+            <Card test={satyakam}name="Satyakam Vats" position="1st Year" />
             </div>
           </motion.div>
         </div>
