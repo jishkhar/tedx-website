@@ -13,6 +13,57 @@ import kalyan from "../../assets/home/kalyan.png";
   
  import anurag from "../../assets/home/anurag.png"
 
+ import abhay from "../../../src/speakers/21abhay.jpeg";
+import ankur from "../../../src/speakers/21ankur.jpeg";
+import clinche from "../../../src/speakers/21clinche.png";
+import dravisha from "../../../src/speakers/21dravisha.jpeg";
+import mira from "../../../src/speakers/21mira.jpg";
+import radhika from "../../../src/speakers/21radhika.webp";
+import shre from "../../../src/speakers/21shreya.jpeg";
+import syed from "../../../src/speakers/21syedasad.jpeg";
+import hitesh from "../../../src/speakers/hitesh.jpg";
+
+import santhosh from "../../../src/speakers/21abhay.jpeg";
+import aditi from "../../../src/speakers/21ankur.jpeg";
+import ajinkya from "../../../src/speakers/21clinche.png";
+import akshay from "../../../src/speakers/21dravisha.jpeg";
+import ganesh from "../../../src/speakers/21mira.jpg";
+import initya from "../../../src/speakers/21radhika.webp";
+import prakash from "../../../src/speakers/21shreya.jpeg";
+import shilpa from "../../../src/speakers/21syedasad.jpeg";
+import yash from "../../../src/speakers/yashwanth.jpg";
+import suma from "../../../src/speakers/suma.jpg";
+import pushpa from "../../../src/speakers/pushpa.jpg"
+
+import baisakhi from "../../../src/speakers/19baisakhi.jpg";
+import aslam from "../../../src/speakers/20aslam.jpg";
+import avelo from "../../../src/speakers/20avelo.jpg";
+import binay from "../../../src/speakers/20binay.jpg";
+import dhanush from "../../../src/speakers/20dhanush.jpg";
+import piali from "../../../src/speakers/20piali.jpg";
+import rajan from "../../../src/speakers/20rajan.jpg";
+
+import sweta from "../../../src/speakers/20sweta.jpg";
+import syam from "../../../src/speakers/20syam.jpg";
+import visalini from "../../../src/speakers/20visalini.jpg";
+
+import goonjan from "../../../src/speakers/23goonjan.jpg";
+import natasha from "../../../src/speakers/23natasha.jpg";
+import prasanna from "../../../src/speakers/23Prasanna.jpg";
+import praveen from "../../../src/speakers/23praveen.jpg";
+import rohit from "../../../src/speakers/23rohith.jpg";
+import koth from "../../../src/speakers/20skoth.jpg";
+import al from "../../../src/speakers/al.jpg"
+import pooja from "../../../src/speakers/pooja.jpg";
+import swami from "../../../src/speakers/20swami.jpg";
+import Sur from "../../../src/speakers/Sur.jpg";
+
+import daksh from "../../../src/speakers/23daksha.jpg";
+
+
+
+
+import { param } from 'framer-motion/client';
 const Speakers = () => {
 
   const [visibleYear, setVisibleYear] = useState('2024');
@@ -42,45 +93,44 @@ const Speakers = () => {
 
         
         <div id="2019" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2019' ? '' : 'hidden'}`}>
-          <Card name="Pooja Sachdeva" position="CEO"  test={anurag} content="Ms. Shreya Rao Kamavarapu was crowned as the 1st runner-up at the Miss India 2018
-pageant. She is known for her grace & intelligence."/>
-          <Card name="Santa Santosh Avvannavar" position="CEO" />
-          <Card name="Alcatraz Dey" position="CEO" />
-          <Card name="Baisakhi Saha" position="CEO" />
-          <Card name="The Params" position="CEO" />
-          <Card name="Goonjan Mall" position="CEO" />
-          <Card name="Rohit Dey" position="CEO" />
-          <Card name="Dr. Dakshayini Kanna" position="CEO" />
-          <Card name="Natasha Noel" position="CEO" />
-          <Card name="Surender Shah" position="CEO" />
-          <Card name="Dr. Praveen Vemula" position="CEO" />
-          <Card name="Prasanna Murthy" position="CEO" />
+          <Card name="Pooja Sachdeva" position="CEO"  test={pooja} />
+          <Card name="Santa Santosh Avvannavar" position="CEO" test={santhosh}  />
+          <Card name="Alcatraz Dey" position="CEO" test={al} />
+          <Card name="Baisakhi Saha" position="CEO" test={baisakhi} />
+          <Card name="The Params" position="CEO" test={param} />
+          <Card name="Goonjan Mall" position="CEO" test={goonjan}  />
+          <Card name="Rohit Dey" position="CEO" test={rohit} />
+          <Card name="Dr. Dakshayini Kanna" position="CEO" test={daksh} />
+          <Card name="Natasha Noel" position="CEO" test={natasha} />
+          <Card name="Surender Shah" position="CEO" test={Sur} />
+          <Card name="Dr. Praveen Vemula" position="CEO" test={praveen} />
+          <Card name="Prasanna Murthy" position="CEO" test={prasanna} />
         </div>
 
         <div id="2020" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2020' ? '' : 'hidden'}`}>
-          <Card name="Avelo Roy" position="CEO" />
-          <Card name="K Visalini" position="CEO" />
-          <Card name="Shweta Ratanpura" position="CEO" />
-          <Card name="Mohd Shams Alam" position="CEO" />
-          <Card name="Shweta Kothari" position="CEO" />
-          <Card name="Dr Shyam Vasudeva Rao" position="CEO" />
-          <Card name="Piali Bopanna" position="CEO" />
-          <Card name="Binay Kumar" position="CEO" />
-          <Card name="Swamy Veereshanda" position="CEO" />
-          <Card name="Dr YS Rajan" position="CEO" />
-          <Card name="Dhanush Devang" position="CEO" />
+          <Card name="Avelo Roy" position="CEO" test={avelo} />
+          <Card name="K Visalini" position="CEO" test={visalini} />
+          <Card name="Shweta Ratanpura" position="CEO" test={sweta}/>
+          <Card name="Mohd Shams Alam" position="CEO" test={aslam}/>
+          <Card name="Shweta Kothari" position="CEO"test={koth} />
+          <Card name="Dr Shyam Vasudeva Rao" position="CEO"test={syam} />
+          <Card name="Piali Bopanna" position="CEO"test={piali} />
+          <Card name="Binay Kumar" position="CEO"test={binay} />
+          <Card name="Swamy Veereshanda" position="CEO"test={swami} />
+          <Card name="Dr YS Rajan" position="CEO" test={rajan}/>
+          <Card name="Dhanush Devang" position="CEO" test={dhanush}/>
         </div>
 
         <div id="2021" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2021' ? '' : 'hidden'}`}>
-          <Card name="Hitesh Choudhary" position="CEO" />
-          <Card name="Dr Syed Asad Abbas" position="CEO" />
-          <Card name="Clince Varghese" position="CEO" />
-          <Card name="Mira Erda" position="CEO" />
-          <Card name="Radhika Bajoria" position="CEO" />
-          <Card name="Abhay Chopra" position="CEO" />
-          <Card name="Shreya Pattar" position="CEO" />
-          <Card name="Dravisha Katoch" position="CEO" />
-          <Card name="Ankur Chaudhary" position="CEO" />
+          <Card name="Hitesh Choudhary" position="CEO" test={hitesh} />
+          <Card name="Dr Syed Asad Abbas" position="CEO" test={syed} />
+          <Card name="Clince Varghese" position="CEO" test={clinche}/>
+          <Card name="Mira Erda" position="CEO" test={mira} />
+          <Card name="Radhika Bajoria" position="CEO" test={radhika} />
+          <Card name="Abhay Chopra" position="CEO"  test={abhay}/>
+          <Card name="Shreya Pattar" position="CEO" test={shre} />
+          <Card name="Dravisha Katoch" position="CEO" test={dravisha}/>
+          <Card name="Ankur Chaudhary" position="CEO" test={ankur} />
         </div>
 
         <div id="2022" className={` h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2022' ? '' : 'hidden'}`}>
@@ -94,17 +144,17 @@ pageant. She is known for her grace & intelligence."/>
           viewport={{ once: false }}
         
           id="2023" className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ${visibleYear === '2023' ? '' : 'hidden'}`}>
-          <Card name="Prakash Belawadi" position="CEO" />
-          <Card name="Santa Santosh Avvannavar" position="CEO" />
-          <Card name="Shilpa Kulshrestha" position="CEO" />
-          <Card name="Akshay Chopra" position="CEO" />
-          <Card name="Major Aditi" position="CEO" />
-          <Card name="Nithyashree Mani" position="CEO" />
-          <Card name="Ganesh Datta Lakkur" position="CEO" />
-          <Card name="Ajinkya Lohakare" position="CEO" />
-          <Card name="Yashwant J" position="CEO" />
-          <Card name="Suma Annegowda and Pushpalatha" position="CEO" />
-
+          <Card name="Prakash Belawadi" position="CEO" test={prakash} />
+          <Card name="Santa Santosh Avvannavar" position="CEO" test={santhosh}/>
+          <Card name="Shilpa Kulshrestha" position="CEO" test={shilpa}/>
+          <Card name="Akshay Chopra" position="CEO" test={akshay}/>
+          <Card name="Major Aditi" position="CEO" test={aditi}/>
+          <Card name="Nithyashree Mani" position="CEO" test={initya}/>
+          <Card name="Ganesh Datta Lakkur" position="CEO" test={ganesh}/>
+          <Card name="Ajinkya Lohakare" position="CEO" test={ajinkya}/>
+          <Card name="Yashwant J" position="CEO" test={yash}/>
+          <Card name="Suma Annegowda " position="CEO" test={suma}/>
+          <Card name="Pushpalatha" position="CEO" test={pushpa}/>
         </motion.div>
 
         <motion.div 
