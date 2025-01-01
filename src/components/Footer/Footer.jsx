@@ -10,10 +10,7 @@ const Footer = () => {
         <>
             <footer className="bg-[rgb(18,18,18)]">
                 <div className='flex justify-around py-10 w-[90%] m-auto lg:flex-row  flex-col  md:pl-7'>
-                    <div className='md:pb-10'>
-                        <img src={logo} alt="tedx_logo" className='w-[40vh]' />
-                    </div>
-
+                    
                     <div className='md:pb-10'>
                         <h1 className='text-red-600 text-3xl mb-4'>Follow Us</h1>
                         <div className='flex flex-row gap-5'>
