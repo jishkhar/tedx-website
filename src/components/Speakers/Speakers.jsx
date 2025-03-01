@@ -74,7 +74,7 @@ const Speakers = () => {
 
   return (
     <>
-      <div className='flex flex-col justify-center items-center w-[90%] mx-auto my-14'>
+      <div className='flex flex-col justify-center items-center w-[90%] mx-auto my-14 bg-black'>
         <div className='text-[2.9rem]'>
           <span className='text-red-600'>PAST</span> &nbsp; SPEAKERS
         </div>

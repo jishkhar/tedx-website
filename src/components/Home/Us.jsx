@@ -18,7 +18,7 @@ const Us = () => {
     fontFamily:'Outfit, sans-serif',
   };
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center bg-black py-0">
     <div className="flex flex-row justify-between items-start w-8/12 max-w-6xl">
       {/* Left side text section */}
       <div className="w-3/4 p-4">
@@ -43,7 +43,7 @@ const Us = () => {
           About TEDx
         </button>
         <button
-          className="px-4 py-2 bg-red-600 text-white  text-center rounded text-2xl  hover:bg-red-800"
+          className="px-4 py-0 bg-red-600 text-white  text-center rounded text-2xl  hover:bg-red-800"
           onClick={() => setSelectedText(textContent.button3)}
           style={Outfit}
         >

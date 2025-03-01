@@ -12,13 +12,14 @@ function Reasons() {
 
   return (
     <>
+    <div className="bg-black py-0">
       <h1
-        className="text-center text-2xl md:text-4xl font-bold mt-4 md:mt-8 mb-4 md:mb-8"
+        className="text-center text-2xl md:text-4xl font-bold mt-4 md:mt-8 mb-4 md:mb-8 bg-black"
         style={lexend}
       >
         Why You Can't Miss This?
       </h1>
-      <div className="flex justify-center items-center px-4 md:px-8">
+      <div className="flex justify-center items-center px-4 md:px-8 bg-black">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8">
           <Card
             frontContent="A Day of Inspiring Voices and Unforgettable Stories"
@@ -43,6 +44,7 @@ This isn't just another event. It's a day of stories that move you, inspire you,
             bgImage={c4}
           />
         </div>
+      </div>
       </div>
     </>
   );

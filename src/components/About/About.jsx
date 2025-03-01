@@ -12,7 +12,7 @@ import { fadeIn, fadeIn2 } from "../../variants.js";
 const About = () => {
   return (
     <>
-      <section className="h-fit">
+      <section className="h-fit bg-black">
         <div className="flex flex-col justify-center items-center mt-10 mb-28">
           <div className="font-extrabold text-[2.6rem] text-center">
             <span className="text-red-600">

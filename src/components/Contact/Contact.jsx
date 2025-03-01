@@ -11,7 +11,7 @@ import { fadeIn3, fadeIn4 } from '../../variants.js';
 const Contact = () => {
   return (
     <>
-      <div id='main' className='grid md:grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 w-[90%] lg:w-[75%] mx-auto my-20'>
+      <div id='main' className='grid md:grid-cols-1 lg:grid-cols-2 bg-black gap-8 lg:gap-20 w-[90%] lg:w-[75%] mx-auto my-20'>
         <motion.div
           variants={fadeIn3("right", 0.4)}
           initial="hidden"
